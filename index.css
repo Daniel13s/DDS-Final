@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #D9D9D9;
+    background-image: linear-gradient(to right, #4d9de0, #7768ae);
     font-family: letraprincipal;
 }
 
@@ -27,7 +27,7 @@ body {
     width: 100px;
 }
 nav {
-    background-color: #20A277;
+    background-color: #b57f50;
     margin: -8px;
     padding: 0px 5%;
     text-align: center;
@@ -41,7 +41,7 @@ a {
     margin-top: 30px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: #4b543b;
 }
 #equipeR {
     cursor: pointer;
@@ -62,7 +62,8 @@ main {
     font-size: 70px;
 }
 #balao {
-    background-color: #71C1E8;
+    background-color: #f3e998;
+    color: #4b543b;
     width: 250px;
     height: auto;
     margin-left: 120%;
@@ -79,7 +80,7 @@ main {
     margin-left: 130%; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 28px solid #71C1E8;
+    border-top: 28px solid #f3e998;
 }
 #animacao {
     position: absolute;
@@ -93,7 +94,8 @@ main {
     margin-top: 290px;
 }
 table {
-    background-color: #F3E998;
+    background-color: #4b543b;
+    color: #b57f50;
     width: 80%;
     border-radius: 30px;
     font-size: 20px;
@@ -112,7 +114,7 @@ td {
 /*FOOTER*/
 footer {
     height: 100px;
-    background-color: #20A277;
+    background-color: #b57f50;
     margin: 0 -8px -8px -8px;
     padding: 20px;
     display: flex;
@@ -122,7 +124,7 @@ footer {
     padding: 20px;
 }
 #linhaV {
-    background-color: white;
+    background-color: #4b543b;
     height: auto;
     width: 2px;
 }
@@ -133,7 +135,7 @@ footer {
 /*JAVASCRIPT*/
 #menu {
     position: absolute;
-    background-color: #20A277;
+    background-color: #b57f50;
     margin-left: 58.3%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -187,7 +189,7 @@ footer {
         margin-left: 70%;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 15px solid #71C1E8;
+        border-top: 15px solid #f3e998;
     }
     #animacao {
         width: 100%;
@@ -237,8 +239,6 @@ footer {
         100% {
         margin-top: 147px;
         }
-    }
-    #triangulo {
     }
 
     /*JAVASCRIPT*/
