@@ -107,6 +107,9 @@ td {
     border-left: transparent;
     border-right: transparent;
 }
+.mobile {
+    display: none;
+}
 .finalTabela {
     border-bottom: transparent;
 }
@@ -213,7 +216,23 @@ footer {
         width: 200px;
         height: 200px;
     }
-
+    .mobile {
+        display: block;
+    }
+    .pc {
+        display: none;
+        padding-inline: 10px;
+        padding-block: 3px;
+    }
+    .Botaomobile {
+        border: none;
+        background-color: transparent;
+        color: #f3e998;
+        font-family: letraprincipal;
+        padding: 15px;
+        font-size: 13px;
+        padding-top: 25px;
+    }
     /*FOOTER*/
     footer {
         font-size: 13px;
@@ -221,14 +240,37 @@ footer {
     #primerioF {
         margin-bottom: 50px;
     }
-    #segundoF {
-        
-    }
 
     /*JAVASCRIPT*/
-    #menu {
-        width: 200px;
-        margin-left: 56%;
+    #popUp1 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 20%;
+        top: 80%;
+    }
+    #popUp2 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 20%;
+        top: 90%;
+    }
+    #popUp3 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 20%;
+        top: 100%;
     }
 }
 @media screen and (max-width: 430px) {
@@ -249,13 +291,34 @@ footer {
     }
 
     /*JAVASCRIPT*/
-    #menu {
-        width: 150px;
-        margin-left: 55%;
-        height: auto;
-        padding-top: 0;
+    #popUp1 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 10%;
+        top: 73%;
     }
-    #daniel {
-        display: block;
+    #popUp2 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 10%;
+        top: 82%;
+    }
+    #popUp3 {
+        position: absolute;
+        background-color: #f3e998;
+        color: #4b543b;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        right: 10%;
+        top: 90%;
     }
 }
